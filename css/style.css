@@ -3545,3 +3545,20 @@ label {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+
+
+/* Custom
+================================================== */
+.coluna-menu{
+  height: 80px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.whats{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  width: 190px;
+  justify-content: center;
+}

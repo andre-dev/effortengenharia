@@ -3562,3 +3562,14 @@ label {
   width: 190px;
   justify-content: center;
 }
+
+.ajuste-menu{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.solicitar-orcamento-whats-hover:hover{
+  background-color: #28a745;
+}

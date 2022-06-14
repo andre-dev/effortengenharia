@@ -3573,3 +3573,25 @@ label {
 .solicitar-orcamento-whats-hover:hover{
   background-color: #28a745;
 }
+
+.latest-post .post-title {
+  font-size: 14px !important;
+  cursor: initial !important;
+}
+
+.latest-post .post-title span {
+  color: #303030;
+}
+
+.latest-post .post-title span:hover {
+  color: #ffb600;
+  transition: .2s ease;
+}
+
+.alert-lei{
+  text-align: center;
+}
+
+.alert-lei a:hover{
+  color: #0052a5;
+}

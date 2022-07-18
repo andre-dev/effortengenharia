@@ -1,11 +1,11 @@
 <?php
 
 $config['protocol']         = 'smtp';
-$config['smtp_host']        = 'smtp.gmail.com';
+$config['smtp_host']        = 'smtp.hostinger.com';
 $config['smtp_crypto']      = 'tls'; // tls or ssl
-$config['smtp_port']        = 587;
-$config['smtp_user']        = 'seuemail@gmail.com';
-$config['smtp_pass']        = 'senhadoemail';
+$config['smtp_port']        = 465;
+$config['smtp_user']        = 'comercial@effortengenharia.com';
+$config['smtp_pass']        = '!Ironmah2';
 $config['validate']         = true; // validar email
 $config['mailtype']         = 'html'; // text ou html
 $config['charset']          = 'utf-8';

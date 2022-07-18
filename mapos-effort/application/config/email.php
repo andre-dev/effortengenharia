@@ -2,7 +2,7 @@
 
 $config['protocol']         = 'smtp';
 $config['smtp_host']        = 'smtp.hostinger.com';
-$config['smtp_crypto']      = 'tls'; // tls or ssl
+$config['smtp_crypto']      = 'ssl'; // tls or ssl
 $config['smtp_port']        = 465;
 $config['smtp_user']        = 'comercial@effortengenharia.com';
 $config['smtp_pass']        = '!Ironmah2';

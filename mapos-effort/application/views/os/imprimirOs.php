@@ -147,8 +147,9 @@ $totalProdutos = 0; ?>
                                 <?php } ?>
                             </tbody>
                         </table>
-                        <?php if ($produtos != null) { ?>
-                            <table class="table table-bordered table-condensed" id="tblProdutos">
+                        <!-- Comentado da linha 150 a 178 para retirar a listagem de produtos na impressao da OS. 03-08-22 -->
+                        <?php //if ($produtos != null) { ?>
+                            <!-- <table class="table table-bordered table-condensed" id="tblProdutos">
                                 <thead>
                                     <tr>
                                         <th>Produtos</th>
@@ -159,22 +160,22 @@ $totalProdutos = 0; ?>
                                 </thead>
                                 <tbody>
                                     <?php
-                                    foreach ($produtos as $p) {
-                                        $totalProdutos = $totalProdutos + $p->subTotal;
-                                        echo '<tr>';
-                                        echo '<td>' . $p->descricao . '</td>';
-                                        echo '<td>' . $p->quantidade . '</td>';
-                                        echo '<td>' . $p->preco ?: $p->precoVenda . '</td>';
-                                        echo '<td>R$ ' . number_format($p->subTotal, 2, ',', '.') . '</td>';
-                                        echo '</tr>';
-                                    } ?>
+                                    // foreach ($produtos as $p) {
+                                    //     $totalProdutos = $totalProdutos + $p->subTotal;
+                                    //     echo '<tr>';
+                                    //     echo '<td>' . $p->descricao . '</td>';
+                                    //     echo '<td>' . $p->quantidade . '</td>';
+                                    //     echo '<td>' . $p->preco ?: $p->precoVenda . '</td>';
+                                    //     echo '<td>R$ ' . number_format($p->subTotal, 2, ',', '.') . '</td>';
+                                    //     echo '</tr>';
+                                    //} ?>
                                     <tr>
                                         <td colspan="3" style="text-align: right"><strong>Total:</strong></td>
-                                        <td><strong>R$ <?php echo number_format($totalProdutos, 2, ',', '.'); ?></strong></td>
+                                        <td><strong>R$ <?php //echo number_format($totalProdutos, 2, ',', '.'); ?></strong></td>
                                     </tr>
                                 </tbody>
-                            </table>
-                        <?php } ?>
+                            </table> -->
+                        <?php //} ?>
                         <?php if ($servicos != null) { ?>
                             <table class="table table-bordered table-condensed">
                                 <thead>

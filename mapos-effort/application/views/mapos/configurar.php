@@ -45,6 +45,7 @@
                                     <option value="20" <?= $configuration['per_page'] == '20' ? 'selected' : ''; ?>>20</option>
                                     <option value="50" <?= $configuration['per_page'] == '50' ? 'selected' : ''; ?>>50</option>
                                     <option value="100" <?= $configuration['per_page'] == '100' ? 'selected' : ''; ?>>100</option>
+                                    <option value="500" <?= $configuration['per_page'] == '500' ? 'selected' : ''; ?>>500</option>
                                 </select>
                                 <span class="help-inline">Selecione quantos registros deseja exibir nas listas</span>
                             </div>

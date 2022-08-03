@@ -153,7 +153,8 @@
                                         </label>
                                         <textarea class="span12 editor" name="descricaoProduto" id="descricaoProduto" cols="300" rows="50"><?php echo $result->descricaoProduto ?></textarea>
                                     </div>
-                                    <div class="span6" style="padding: 1%; margin-left: 0">
+                                    <!-- Retirado da visualização em Editar OS da linha 157 a 174 no dia 03-08-22 -->
+                                    <!-- <div class="span6" style="padding: 1%; margin-left: 0">
                                         <label for="defeito">
                                             <h4>Problema Apresentado</h4>
                                         </label>
@@ -170,7 +171,7 @@
                                             <h4>Laudo Técnico</h4>
                                         </label>
                                         <textarea class="span12 editor" name="laudoTecnico" id="laudoTecnico" cols="30" rows="5"><?php echo $result->laudoTecnico ?></textarea>
-                                    </div>
+                                    </div> -->
                                     <div class="span12" style="padding: 0; margin-left: 0">
                                         <div class="span6 offset3" style="display:flex;justify-content: center">
                                             <button class="button btn btn-primary" id="btnContinuar"><span class="button__icon"><i class="bx bx-sync"></i></span><span class="button__text2">Atualizar</span></button>

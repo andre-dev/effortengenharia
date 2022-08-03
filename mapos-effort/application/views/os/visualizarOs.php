@@ -200,9 +200,10 @@
                                 ?>
                             </tbody>
                         </table>
-                        <?php if ($produtos != null) { ?>
+                        <!-- Comentado da linha 204 a 235 para retirar a listagem de produtos na visualização da OS. 03-08-22 -->
+                        <?php //if ($produtos != null) { ?>
                             <br />
-                            <table class="table table-bordered table-condensed" id="tblProdutos">
+                            <!-- <table class="table table-bordered table-condensed" id="tblProdutos">
                                 <thead>
                                     <tr>
                                         <th>Produto</th>
@@ -214,24 +215,24 @@
                                 <tbody>
                                     <?php
 
-                                    foreach ($produtos as $p) {
-                                        echo '<tr>';
-                                        echo '<td>' . $p->descricao . '</td>';
-                                        echo '<td>' . $p->quantidade . '</td>';
-                                        echo '<td>' . $p->preco ?: $p->precoVenda . '</td>';
-                                        echo '<td>R$ ' . number_format($p->subTotal, 2, ',', '.') . '</td>';
-                                        echo '</tr>';
-                                    } ?>
+                                    // foreach ($produtos as $p) {
+                                    //     echo '<tr>';
+                                    //     echo '<td>' . $p->descricao . '</td>';
+                                    //     echo '<td>' . $p->quantidade . '</td>';
+                                    //     echo '<td>' . $p->preco ?: $p->precoVenda . '</td>';
+                                    //     echo '<td>R$ ' . number_format($p->subTotal, 2, ',', '.') . '</td>';
+                                    //     echo '</tr>';
+                                    // } ?>
 
                                     <tr>
                                         <td></td>
                                         <td colspan="2" style="text-align: right"><strong>Total:</strong></td>
-                                        <td><strong>R$ <?php echo number_format($totalProdutos, 2, ',', '.'); ?></strong>
+                                        <td><strong>R$ <?php //echo number_format($totalProdutos, 2, ',', '.'); ?></strong>
                                         </td>
                                     </tr>
                                 </tbody>
-                            </table>
-                        <?php } ?>
+                            </table> -->
+                        <?php //} ?>
 
                         <?php if ($servicos != null) { ?>
                             <table class="table table-bordered table-condensed">

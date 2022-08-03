@@ -75,8 +75,9 @@
                                                     <span><?php echo $result->nomeCliente ?></span><br />
                                                     <span><?php echo $result->rua ?>, <?php echo $result->numero ?>, <?php echo $result->bairro ?></span>,
                                                     <span><?php echo $result->cidade ?> - <?php echo $result->estado ?></span><br>
-                                                    <span>E-mail: <?php echo $result->email ?></span><br>
-                                                    <span>Contato: <?php echo $result->celular_cliente ?></span>
+                                                    <!-- Retirado dados de contato do cliente da visualização da OS. 03-08-22 -->
+                                                    <!-- <span>E-mail: <?php echo $result->email ?></span><br> -->
+                                                    <!-- <span>Contato: <?php echo $result->celular_cliente ?></span> -->
                                             </li>
                                         </ul>
                                     </td>

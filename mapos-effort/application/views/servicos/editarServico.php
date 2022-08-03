@@ -26,7 +26,8 @@
                     <div class="control-group">
                         <label for="descricao" class="control-label">Descrição</label>
                         <div class="controls">
-                            <input id="descricao" type="text" name="descricao" value="<?php echo $result->descricao ?>" />
+                            <!-- <input id="descricao" type="text" name="descricao" value="<?php //echo $result->descricao ?>" /> -->
+                            <textarea class="span12 editor" name="descricao" id="descricao" cols="300" rows="50"><?php echo $result->descricao ?></textarea>
                         </div>
                     </div>
                     <div class="form-actions">

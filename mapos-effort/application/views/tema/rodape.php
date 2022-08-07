@@ -1,5 +1,5 @@
 <div class="row-fluid">
-    <div id="footer" class="span12"> <a class="pecolor" href="https://github.com/RamonSilva20/mapos" target="_blank">
+    <div id="footer" class="span12"> <a class="pecolor" href="https://effortengenharia.com/" target="_blank">
             <?= date('Y'); ?> &copy; Todos os direitos reservados a Effort Engenharia - Versão:
       <?= $this->config->item('app_version'); ?></a></div>
 </div>

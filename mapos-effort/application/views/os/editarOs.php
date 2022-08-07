@@ -154,7 +154,7 @@
                                         </label>
                                         <textarea class="span12 editor" name="descricaoProduto" id="descricaoProduto" cols="300" rows="50"><?php echo $result->descricaoProduto ?></textarea>
                                     </div>
-                                    <!-- Retirado da visualização em Editar OS da linha 157 a 174 no dia 03-08-22 -->
+                                    <!-- Retirado da visualização em Editar OS da linha 157 a 175 no dia 03-08-22 -->
                                     <!-- <div class="span6" style="padding: 1%; margin-left: 0">
                                         <label for="defeito">
                                             <h4>Problema Apresentado</h4>

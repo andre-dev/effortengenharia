@@ -73,7 +73,7 @@ echo saudacao($login);
               </div>
               <div class="center"><button id="btn-acessar">Acessar</button>
               </div>
-              <div class="links-uteis"><a href="https://github.com/RamonSilva20/mapos"><p><?= date('Y'); ?> &copy; Ramon Silva</p></a>
+              <div class="links-uteis"><a href="https://effortengenharia.com/"><p><?= date('Y'); ?> &copy; Todos os direitos reservados a Effort Engenharia</p></a>
               </div>
               <a href="#notification" id="call-modal" role="button" class="btn" data-toggle="modal" style="display: none ">notification</a>
               <div id="notification" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">

@@ -54,7 +54,7 @@ $parse_cpfcnpj = $this->input->get('c');
                                             <img src="<?php echo base_url() ?>assets/img/logo-two.png">
                                         </div>
                                         <div class="title01">
-                                            <?= $configuration['app_theme'] == 'white' ? '<img src="' . base_url() . 'assets/img/logo-mapos.png">' : '<img src="' . base_url() . 'assets/img/logo-mapos-branco.png">'; ?>
+                                            <?= $configuration['app_theme'] == 'white' ? '<img src="' . base_url() . 'assets/img/effortLogo.png">' : '<img src="' . base_url() . 'assets/img/effortLogo.png">'; ?>
                                         </div>
                                     </div>
                                     <div id="mcell">Versão: <?= $this->config->item('app_version'); ?></div>
@@ -81,8 +81,8 @@ $parse_cpfcnpj = $this->input->get('c');
                                     <div class="links-uteis"><a href="<?= site_url('mine/resetarSenha') ?>">
                                             <p style="margin:0px 0 18px">Esqueceu a senha?</p>
                                         </a></div>
-                                    <div class="links-uteis"><a href="https://github.com/RamonSilva20/mapos">
-                                            <p><?= date('Y'); ?> &copy; Ramon Silva</p>
+                                    <div class="links-uteis"><a href="https://effortengenharia.com/">
+                                            <p><?= date('Y'); ?> &copy; Todos os direitos reservados a Effort Engenharia</p>
                                         </a></div>
                                 </div>
                             </div>

@@ -5,7 +5,14 @@
 <link rel="stylesheet" href="<?php echo base_url() ?>assets/trumbowyg/ui/trumbowyg.css">
 <script type="text/javascript" src="<?php echo base_url() ?>assets/trumbowyg/trumbowyg.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets/trumbowyg/langs/pt_br.js"></script>
+<!-- Adicionando plugins ao trumbowyg 11-08-22 -->
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\fontfamily\trumbowyg.fontfamily.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\fontsize\trumbowyg.fontsize.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\allowtagsfrompaste\trumbowyg.allowtagsfrompaste.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\"></script>
 
 <style>
     .ui-datepicker {

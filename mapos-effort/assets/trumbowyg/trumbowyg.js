@@ -68,7 +68,11 @@ jQuery.trumbowyg = {
     },
 
     // Plugins
-    plugins: {},
+    plugins: {
+        allowTagsFromPaste: {
+            allowedTags: ['h1','h2','h3','h4', 'p', 'br', 'strong']
+        }
+    },
 
     // SVG Path globally
     svgPath: null,
@@ -107,7 +111,8 @@ Object.defineProperty(jQuery.trumbowyg, 'defaultOptions', {
             ['horizontalRule'],
             ['removeformat'],
             ['fullscreen'],
-            ['fontfamily']
+            ['fontfamily'],
+            ['fontsize']
         ],
         // For custom button definitions
         btnsDef: {},

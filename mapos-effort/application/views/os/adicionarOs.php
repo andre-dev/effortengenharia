@@ -14,7 +14,7 @@
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\fontsize\trumbowyg.fontsize.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\colors\trumbowyg.colors.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\lineheight\trumbowyg.lineheight.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\upload\trumbowyg.upload.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\pasteimage\trumbowyg.pasteimage.min.js"></script>
 
 <style>
     .ui-datepicker {

@@ -110,8 +110,7 @@ Object.defineProperty(jQuery.trumbowyg, 'defaultOptions', {
             ['fontfamily'],
             ['fontsize'],
             ['foreColor', 'backColor'],
-            ['lineheight'],
-            ['upload']
+            ['lineheight']
         ],
         // For custom button definitions
         btnsDef: {},

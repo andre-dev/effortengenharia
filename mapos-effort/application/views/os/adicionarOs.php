@@ -5,15 +5,17 @@
 <link rel="stylesheet" href="<?php echo base_url() ?>assets/trumbowyg/ui/trumbowyg.css">
 <script type="text/javascript" src="<?php echo base_url() ?>assets/trumbowyg/trumbowyg.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets/trumbowyg/langs/pt_br.js"></script>
+
+<!-- Trumbowyg Plugins Css 11-08-22 -->
+<script rel="stylesheet" href="<?php echo base_url() ?>assets\trumbowyg\plugins\colors\ui\trumbowyg.colors.min.css"></script>
+<script rel="stylesheet" href="<?php echo base_url() ?>assets\trumbowyg\plugins\table\ui\trumbowyg.table.min.css"></script>
+
 <!-- Adicionando plugins ao trumbowyg 11-08-22 -->
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\fontfamily\trumbowyg.fontfamily.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\fontsize\trumbowyg.fontsize.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\colors\trumbowyg.colors.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\lineheight\trumbowyg.lineheight.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\table\trumbowyg.table.min.js"></script>
-<!-- Trumbowyg Plugins Css 11-08-22 -->
-<script rel="stylesheet" href="<?php echo base_url() ?>assets\trumbowyg\plugins\colors\ui\trumbowyg.colors.min.css"></script>
-<script rel="stylesheet" href="<?php echo base_url() ?>assets\trumbowyg\plugins\table\ui\trumbowyg.table.min.css"></script>
 
 <style>
     .ui-datepicker {

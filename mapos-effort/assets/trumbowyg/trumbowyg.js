@@ -68,11 +68,7 @@ jQuery.trumbowyg = {
     },
 
     // Plugins
-    plugins: {
-        // allowTagsFromPaste: {
-        //     allowedTags: ['h1','h2','h3','h4', 'p', 'br', 'strong']
-        // }
-    },
+    plugins: {},
 
     // SVG Path globally
     svgPath: null,
@@ -123,11 +119,7 @@ Object.defineProperty(jQuery.trumbowyg, 'defaultOptions', {
 
         // imgDblClickHandler: default is defined in constructor
 
-        plugins: {
-            allowTagsFromPaste: {
-                allowedTags: ['h4', 'p', 'br']
-            }
-        },
+        plugins: {},
         urlProtocol: false,
         minimalLinks: false
     },

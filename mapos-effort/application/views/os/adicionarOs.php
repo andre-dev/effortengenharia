@@ -195,7 +195,14 @@
             dateFormat: 'dd/mm/yy'
         });
         $('.editor').trumbowyg({
-            lang: 'pt_br'
+            lang: 'pt_br',
         });
+        $('.editor').trumbowyg({
+            plugins: {
+            allowTagsFromPaste: {
+            allowedTags: ['h1','h2','h3','h4', 'p', 'br', 'strong']
+        }
+    }
+});
     });
 </script>

@@ -108,7 +108,8 @@ Object.defineProperty(jQuery.trumbowyg, 'defaultOptions', {
             ['removeformat'],
             ['fullscreen'],
             ['fontfamily'],
-            ['fontsize']
+            ['fontsize'],
+            ['allowTagsFromPaste']
         ],
         // For custom button definitions
         btnsDef: {},

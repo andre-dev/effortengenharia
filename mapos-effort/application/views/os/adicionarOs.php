@@ -199,10 +199,10 @@
         });
         $('.editor').trumbowyg({
             plugins: {
-            allowTagsFromPaste: {
-            allowedTags: ['h1','h2','h3','h4', 'p', 'br', 'strong']
-        }
-    }
-});
+                allowTagsFromPaste: {
+                    allowedTags: ['h4', 'p', 'br']
+                }
+            }
+        });
     });
 </script>

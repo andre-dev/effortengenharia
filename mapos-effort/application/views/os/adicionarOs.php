@@ -1,4 +1,6 @@
 <link rel="stylesheet" href="<?php echo base_url(); ?>assets/js/jquery-ui/css/smoothness/jquery-ui-1.9.2.custom.css" />
+<!-- Import dependency for Resizimg (tested with version 0.35). For a production setup, follow install instructions here: https://github.com/RickStrahl/jquery-resizable -->
+<script src="//rawcdn.githack.com/RickStrahl/jquery-resizable/0.35/dist/jquery-resizable.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets/js/jquery-ui/js/jquery-ui-1.9.2.custom.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets/js/jquery.validate.js"></script>
 
@@ -15,6 +17,7 @@
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\colors\trumbowyg.colors.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\lineheight\trumbowyg.lineheight.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\pasteimage\trumbowyg.pasteimage.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\resizimg\trumbowyg.resizimg.min.js"></script>
 
 <style>
     .ui-datepicker {

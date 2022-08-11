@@ -106,7 +106,8 @@ Object.defineProperty(jQuery.trumbowyg, 'defaultOptions', {
             ['unorderedList', 'orderedList'],
             ['horizontalRule'],
             ['removeformat'],
-            ['fullscreen']
+            ['fullscreen'],
+            ['fontfamily']
         ],
         // For custom button definitions
         btnsDef: {},

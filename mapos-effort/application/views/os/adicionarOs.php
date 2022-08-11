@@ -204,5 +204,13 @@
         $('.editor').trumbowyg({
             lang: 'pt_br'
         });
+        $('.editor').trumbowyg({
+    plugins: {
+        resizimg: {
+            minSize: 64,
+            step: 16,
+        }
+    }
+});
     });
 </script>

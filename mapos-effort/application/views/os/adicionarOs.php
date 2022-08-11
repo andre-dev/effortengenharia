@@ -10,10 +10,6 @@
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\fontsize\trumbowyg.fontsize.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\colors\trumbowyg.colors.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\lineheight\trumbowyg.lineheight.min.js"></script>
-<!-- Import dependency for Resizimg (tested with version 0.35). For a production setup, follow install instructions here: https://github.com/RickStrahl/jquery-resizable -->
-    <script src="//rawcdn.githack.com/RickStrahl/jquery-resizable/0.35/dist/jquery-resizable.min.js"></script>
-<!-- Import Trumbowyg plugins... -->
-    <script src="assets\trumbowyg\plugins\resizimg\trumbowyg.resizimg.min.js"></script>
 <!-- Trumbowyg Color Css -->
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\colors\ui\trumbowyg.colors.min.css"></script>
 
@@ -204,13 +200,5 @@
         $('.editor').trumbowyg({
             lang: 'pt_br'
         });
-        $('.editor').trumbowyg({
-    plugins: {
-        resizimg: {
-            minSize: 64,
-            step: 16,
-        }
-    }
-});
     });
 </script>

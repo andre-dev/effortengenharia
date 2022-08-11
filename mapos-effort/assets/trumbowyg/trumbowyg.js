@@ -110,7 +110,8 @@ Object.defineProperty(jQuery.trumbowyg, 'defaultOptions', {
             ['fontfamily'],
             ['fontsize'],
             ['foreColor', 'backColor'],
-            ['lineheight']
+            ['lineheight'],
+            ['table']
         ],
         // For custom button definitions
         btnsDef: {},

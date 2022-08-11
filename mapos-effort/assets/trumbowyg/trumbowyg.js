@@ -125,7 +125,7 @@ Object.defineProperty(jQuery.trumbowyg, 'defaultOptions', {
 
         plugins: {
             allowTagsFromPaste: {
-                allowedTags: ['h1','h2','h3','h4', 'p', 'br', 'strong']
+                allowedTags: ['h4', 'p', 'br']
             }
         },
         urlProtocol: false,

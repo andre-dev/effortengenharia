@@ -9,10 +9,7 @@
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\fontfamily\trumbowyg.fontfamily.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\fontsize\trumbowyg.fontsize.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\allowtagsfrompaste\trumbowyg.allowtagsfrompaste.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\"></script>
-<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\"></script>
-<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\"></script>
-<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\"></script>
+
 
 <style>
     .ui-datepicker {

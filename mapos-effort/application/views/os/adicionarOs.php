@@ -8,7 +8,9 @@
 <!-- Adicionando plugins ao trumbowyg 11-08-22 -->
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\fontfamily\trumbowyg.fontfamily.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\fontsize\trumbowyg.fontsize.min.js"></script>
-<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\allowtagsfrompaste\trumbowyg.allowtagsfrompaste.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\colors\trumbowyg.colors.min.js"></script>
+<!-- Trumbowyg Css -->
+<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\colors\ui\trumbowyg.colors.min.css"></script>
 
 
 <style>
@@ -195,14 +197,7 @@
             dateFormat: 'dd/mm/yy'
         });
         $('.editor').trumbowyg({
-            lang: 'pt_br',
-        });
-        $('.editor').trumbowyg({
-            plugins: {
-                allowTagsFromPaste: {
-                    allowedTags: ['h4', 'p', 'br']
-                }
-            }
+            lang: 'pt_br'
         });
     });
 </script>

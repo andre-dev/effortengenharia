@@ -9,7 +9,8 @@
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\fontfamily\trumbowyg.fontfamily.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\fontsize\trumbowyg.fontsize.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\colors\trumbowyg.colors.min.js"></script>
-<!-- Trumbowyg Css -->
+<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\lineheight\trumbowyg.lineheight.min.js"></script>
+<!-- Trumbowyg Color Css -->
 <script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\colors\ui\trumbowyg.colors.min.css"></script>
 
 

@@ -177,8 +177,8 @@ $totalProdutos = 0; ?>
                                 </tbody>
                             </table> -->
                         <?php //} ?>
-                        <?php if ($servicos != null) { ?>
-                            <table class="table table-bordered table-condensed">
+                        <?php // if ($servicos != null) { ?>
+                            <!-- <table class="table table-bordered table-condensed">
                                 <thead>
                                     <tr>
                                         <th>Serviços</th>
@@ -187,8 +187,8 @@ $totalProdutos = 0; ?>
                                         <th>S.Total R$</th>
                                     </tr>
                                 </thead>
-                                <tbody>
-                                    <?php
+                                <tbody> -->
+                                    <?php /*
                                     setlocale(LC_MONETARY, 'en_US');
                                     foreach ($servicos as $s) {
                                         $preco = $s->preco ?: $s->precoVenda;
@@ -200,21 +200,21 @@ $totalProdutos = 0; ?>
                                         echo '<td>' . $preco . '</td>';
                                         echo '<td>R$ ' . number_format($subtotal, 2, ',', '.') . '</td>';
                                         echo '</tr>';
-                                    } ?>
-                                    <tr>
+                                    } */ ?>
+                                    <!-- <tr>
                                         <td colspan="3" style="text-align: right"><strong>Total:</strong></td>
                                         <td><strong>R$ <?php echo number_format($totalServico, 2, ',', '.'); ?></strong></td>
                                     </tr>
                                 </tbody>
-                            </table>
-                        <?php } ?>
-                        <?php
+                            </table> -->
+                        <?php // } ?>
+                        <?php /*
                         if ($totalProdutos != 0 || $totalServico != 0) {
                             echo "<h4 style='text-align: right'> Valor Total da OS: R$ " . number_format($totalProdutos + $totalServico, 2, ',', '.') . "</h4>";
                             echo $result->valor_desconto != 0 ? "<h4 style='text-align: right'> Desconto: R$ " . number_format($result->valor_desconto != 0 ? $result->valor_desconto - ($totalProdutos + $totalServico) : 0.00, 2, ',', '.') . "</h4>" : "";
                             echo $result->valor_desconto != 0 ? "<h4 style='text-align: right'> Total com Desconto: R$ " . number_format($result->valor_desconto, 2, ',', '.') . "</h4>" : "";
                         }
-                        ?>
+                        */ ?>
                         <table class="table table-bordered table-condensed">
                             <tbody>
                                 <tr>

@@ -192,12 +192,6 @@
                                         <?php echo $result->nomeRespAdministradora ?>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <td style="text-align: right"><strong>CEP</strong></td>
-                                    <td>
-                                        <?php echo $result->cep ?>
-                                    </td>
-                                </tr>
                                 </tbody>
                             </table>
                         </div>

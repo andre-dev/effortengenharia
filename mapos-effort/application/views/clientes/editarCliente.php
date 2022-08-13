@@ -192,6 +192,42 @@
                                 </select>
                             </div>
                         </div>
+                        <div class="control-group" class="control-label">
+                            <label for="qntBlocos" class="control-label">Quantidade de Blocos</label>
+                            <div class="controls">
+                                <input id="qntBlocos" type="text" name="qntBlocos" value="<?php echo $result->qntBlocos; ?>" />
+                            </div>
+                        </div>
+                        <div class="control-group" class="control-label">
+                            <label for="qntApartamentos" class="control-label">Quantidade de Apartamentos</label>
+                            <div class="controls">
+                                <input id="qntApartamentos" type="text" name="qntApartamentos" value="<?php echo $result->qntApartamentos; ?>" />
+                            </div>
+                        </div>
+                        <div class="control-group" class="control-label">
+                            <label for="qntAndares" class="control-label">Quantidade de Andares</label>
+                            <div class="controls">
+                                <input id="qntAndares" type="text" name="qntAndares" value="<?php echo $result->qntAndares; ?>" />
+                            </div>
+                        </div>
+                        <div class="control-group" class="control-label">
+                            <label for="nomeSindico" class="control-label">Nome do Síndico</label>
+                            <div class="controls">
+                                <input id="nomeSindico" type="text" name="nomeSindico" value="<?php echo $result->nomeSindico; ?>" />
+                            </div>
+                        </div>
+                        <div class="control-group" class="control-label">
+                            <label for="nomeAdministradora" class="control-label">Nome Administradora</label>
+                            <div class="controls">
+                                <input id="nomeAdministradora" type="text" name="nomeAdministradora" value="<?php echo $result->nomeAdministradora; ?>" />
+                            </div>
+                        </div>
+                        <div class="control-group" class="control-label">
+                            <label for="nomeRespAdministradora" class="control-label">Nome do Responsável na Administradora</label>
+                            <div class="controls">
+                                <input id="nomeRespAdministradora" type="text" name="nomeRespAdministradora" value="<?php echo $result->nomeRespAdministradora; ?>" />
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="form-actions">

@@ -162,34 +162,34 @@
                             <table class="table table-bordered th" style="border: 1px solid #ddd;border-left: 1px solid #ddd">
                                 <tbody>
                                 <tr>
-                                    <td style="text-align: right; width: 30%;"><strong>Rua</strong></td>
+                                    <td style="text-align: right; width: 30%;"><strong>Quantidade de Blocos</strong></td>
                                     <td>
-                                        <?php echo $result->rua ?>
+                                        <?php echo $result->qntBlocos ?>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: right"><strong>Número</strong></td>
+                                    <td style="text-align: right"><strong>Quantidade de Apartamentos</strong></td>
                                     <td>
-                                        <?php echo $result->numero ?>
+                                        <?php echo $result->qntApartamentos ?>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: right"><strong>Complemento</strong></td>
+                                    <td style="text-align: right"><strong>Quantidade de Andares</strong></td>
                                     <td>
-                                        <?php echo $result->complemento ?>
+                                        <?php echo $result->qntAndares ?>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: right"><strong>Bairro</strong></td>
+                                    <td style="text-align: right"><strong>Nome do Síndico</strong></td>
                                     <td>
-                                        <?php echo $result->bairro ?>
+                                        <?php echo $result->nomeSindico ?>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: right"><strong>Cidade</strong></td>
+                                    <td style="text-align: right"><strong>Nome da Administradora / Responsável</strong></td>
                                     <td>
-                                        <?php echo $result->cidade ?> -
-                                        <?php echo $result->estado ?>
+                                        <?php echo $result->nomeAdministradora ?> -
+                                        <?php echo $result->nomeRespAdministradora ?>
                                     </td>
                                 </tr>
                                 <tr>

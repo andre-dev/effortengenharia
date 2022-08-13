@@ -189,6 +189,42 @@
                                 </select>
                             </div>
                         </div>
+                        <div class="control-group" class="control-label">
+                            <label for="cidade" class="control-label">Quantidade de Blocos</label>
+                            <div class="controls">
+                                <input id="cidade" type="text" name="cidade" value="<?php echo set_value('cidade'); ?>" />
+                            </div>
+                        </div>
+                        <div class="control-group" class="control-label">
+                            <label for="cidade" class="control-label">Quantidade de Apartamentos</label>
+                            <div class="controls">
+                                <input id="cidade" type="text" name="cidade" value="<?php echo set_value('cidade'); ?>" />
+                            </div>
+                        </div>
+                        <div class="control-group" class="control-label">
+                            <label for="cidade" class="control-label">Quantidade de Andares</label>
+                            <div class="controls">
+                                <input id="cidade" type="text" name="cidade" value="<?php echo set_value('cidade'); ?>" />
+                            </div>
+                        </div>
+                        <div class="control-group" class="control-label">
+                            <label for="cidade" class="control-label">Nome do Síndico</label>
+                            <div class="controls">
+                                <input id="cidade" type="text" name="cidade" value="<?php echo set_value('cidade'); ?>" />
+                            </div>
+                        </div>
+                        <div class="control-group" class="control-label">
+                            <label for="cidade" class="control-label">Nome Administradora</label>
+                            <div class="controls">
+                                <input id="cidade" type="text" name="cidade" value="<?php echo set_value('cidade'); ?>" />
+                            </div>
+                        </div>
+                        <div class="control-group" class="control-label">
+                            <label for="cidade" class="control-label">Nome do Responsável na Administradora</label>
+                            <div class="controls">
+                                <input id="cidade" type="text" name="cidade" value="<?php echo set_value('cidade'); ?>" />
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="form-actions">

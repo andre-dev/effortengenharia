@@ -148,6 +148,61 @@
                         </div>
                     </div>
                 </div>
+                <div class="accordion-group widget-box">
+                    <div class="accordion-heading">
+                        <div class="widget-title">
+                            <a data-parent="#collapse-group" href="#collapseGThree" data-toggle="collapse">
+                                <span><i class='bx bx-map-alt icon-cli' ></i></span>
+                                <h5 style="padding-left: 28px">Endereço</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collapse accordion-body" id="collapseGThree">
+                        <div class="widget-content">
+                            <table class="table table-bordered th" style="border: 1px solid #ddd;border-left: 1px solid #ddd">
+                                <tbody>
+                                <tr>
+                                    <td style="text-align: right; width: 30%;"><strong>Rua</strong></td>
+                                    <td>
+                                        <?php echo $result->rua ?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: right"><strong>Número</strong></td>
+                                    <td>
+                                        <?php echo $result->numero ?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: right"><strong>Complemento</strong></td>
+                                    <td>
+                                        <?php echo $result->complemento ?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: right"><strong>Bairro</strong></td>
+                                    <td>
+                                        <?php echo $result->bairro ?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: right"><strong>Cidade</strong></td>
+                                    <td>
+                                        <?php echo $result->cidade ?> -
+                                        <?php echo $result->estado ?>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: right"><strong>CEP</strong></td>
+                                    <td>
+                                        <?php echo $result->cep ?>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!--Tab 2-->

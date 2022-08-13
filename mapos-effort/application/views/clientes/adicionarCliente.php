@@ -190,39 +190,39 @@
                             </div>
                         </div>
                         <div class="control-group" class="control-label">
-                            <label for="cidade" class="control-label">Quantidade de Blocos</label>
+                            <label for="qntBlocos" class="control-label">Quantidade de Blocos</label>
                             <div class="controls">
-                                <input id="cidade" type="text" name="cidade" value="<?php echo set_value('cidade'); ?>" />
+                                <input id="qntBlocos" type="text" name="qntBlocos" value="<?php echo set_value('qntBlocos'); ?>" />
                             </div>
                         </div>
                         <div class="control-group" class="control-label">
-                            <label for="cidade" class="control-label">Quantidade de Apartamentos</label>
+                            <label for="qntApartamentos" class="control-label">Quantidade de Apartamentos</label>
                             <div class="controls">
-                                <input id="cidade" type="text" name="cidade" value="<?php echo set_value('cidade'); ?>" />
+                                <input id="qntApartamentos" type="text" name="qntApartamentos" value="<?php echo set_value('qntApartamentos'); ?>" />
                             </div>
                         </div>
                         <div class="control-group" class="control-label">
-                            <label for="cidade" class="control-label">Quantidade de Andares</label>
+                            <label for="qntAndares" class="control-label">Quantidade de Andares</label>
                             <div class="controls">
-                                <input id="cidade" type="text" name="cidade" value="<?php echo set_value('cidade'); ?>" />
+                                <input id="qntAndares" type="text" name="qntAndares" value="<?php echo set_value('qntAndares'); ?>" />
                             </div>
                         </div>
                         <div class="control-group" class="control-label">
-                            <label for="cidade" class="control-label">Nome do Síndico</label>
+                            <label for="nomeSindico" class="control-label">Nome do Síndico</label>
                             <div class="controls">
-                                <input id="cidade" type="text" name="cidade" value="<?php echo set_value('cidade'); ?>" />
+                                <input id="nomeSindico" type="text" name="nomeSindico" value="<?php echo set_value('nomeSindico'); ?>" />
                             </div>
                         </div>
                         <div class="control-group" class="control-label">
-                            <label for="cidade" class="control-label">Nome Administradora</label>
+                            <label for="nomeAdministradora" class="control-label">Nome Administradora</label>
                             <div class="controls">
-                                <input id="cidade" type="text" name="cidade" value="<?php echo set_value('cidade'); ?>" />
+                                <input id="nomeAdministradora" type="text" name="nomeAdministradora" value="<?php echo set_value('nomeAdministradora'); ?>" />
                             </div>
                         </div>
                         <div class="control-group" class="control-label">
-                            <label for="cidade" class="control-label">Nome do Responsável na Administradora</label>
+                            <label for="nomeRespAdministradora" class="control-label">Nome do Responsável na Administradora</label>
                             <div class="controls">
-                                <input id="cidade" type="text" name="cidade" value="<?php echo set_value('cidade'); ?>" />
+                                <input id="nomeRespAdministradora" type="text" name="nomeRespAdministradora" value="<?php echo set_value('nomeRespAdministradora'); ?>" />
                             </div>
                         </div>
                     </div>

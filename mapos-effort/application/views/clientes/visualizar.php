@@ -151,13 +151,13 @@
                 <div class="accordion-group widget-box">
                     <div class="accordion-heading">
                         <div class="widget-title">
-                            <a data-parent="#collapse-group" href="#collapseGThree" data-toggle="collapse">
+                            <a data-parent="#collapse-group" href="#collapseGFour" data-toggle="collapse">
                                 <span><i class='bx bx-map-alt icon-cli' ></i></span>
-                                <h5 style="padding-left: 28px">Endereço</h5>
+                                <h5 style="padding-left: 28px">Dados Adicionais</h5>
                             </a>
                         </div>
                     </div>
-                    <div class="collapse accordion-body" id="collapseGThree">
+                    <div class="collapse accordion-body" id="collapseGFour">
                         <div class="widget-content">
                             <table class="table table-bordered th" style="border: 1px solid #ddd;border-left: 1px solid #ddd">
                                 <tbody>

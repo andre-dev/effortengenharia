@@ -235,8 +235,8 @@
                             </table> -->
                         <?php //} ?>
 
-                        <?php if ($servicos != null) { ?>
-                            <table class="table table-bordered table-condensed">
+                        <?php //if ($servicos != null) { ?>
+                            <!-- <table class="table table-bordered table-condensed">
                                 <thead>
                                     <tr>
                                         <th>Serviço</th>
@@ -245,8 +245,8 @@
                                         <th>Sub-total</th>
                                     </tr>
                                 </thead>
-                                <tbody>
-                                    <?php
+                                <tbody> -->
+                                    <?php /*
                                     setlocale(LC_MONETARY, 'en_US');
                                     foreach ($servicos as $s) {
                                         $preco = $s->preco ?: $s->precoVenda;
@@ -257,26 +257,26 @@
                                         echo '<td>' . $preco . '</td>';
                                         echo '<td>R$ ' . number_format($subtotal, 2, ',', '.') . '</td>';
                                         echo '</tr>';
-                                    } ?>
+                                    } */?>
 
-                                    <tr>
+                                    <!-- <tr>
                                         <td colspan="3" style="text-align: right"><strong>Total:</strong></td>
-                                        <td><strong>R$ <?php echo number_format($totalServico, 2, ',', '.'); ?></strong>
+                                        <td><strong>R$ <?php //echo number_format($totalServico, 2, ',', '.'); ?></strong>
                                         </td>
                                     </tr>
                                 </tbody>
-                            </table>
-                        <?php } ?>
+                            </table> -->
+                        <?php //} ?>
 
-                        <?php if ($anexos != null) { ?>
-                            <table class="table table-bordered table-condensed">
+                        <?php //if ($anexos != null) { ?>
+                            <!-- <table class="table table-bordered table-condensed">
                                 <thead>
                                     <tr>
                                         <th>Anexo</th>
                                     </tr>
                                 </thead>
-                                <tbody>
-                                    <?php
+                                <tbody> -->
+                                    <?php /*
                                     foreach ($anexos as $a) {
                                         if ($a->thumb == null) {
                                             $thumb = base_url() . 'assets/img/icon-file.png';
@@ -288,18 +288,18 @@
                                         echo '<tr>';
                                         echo '<td><a style="min-height: 150px;" href="#modal-anexo" imagem="' . $a->idAnexos . '" link="' . $link . '" role="button" class="btn anexo span12" data-toggle="modal"><img src="' . $thumb . '" alt=""></a></td>';
                                         echo '</tr>';
-                                    } ?>
-                                </tbody>
-                            </table>
-                        <?php } ?>
+                                    } */ ?>
+                                <!-- </tbody>
+                            </table> -->
+                        <?php // } ?>
 
-                        <?php
+                        <?php /*
                         if ($totalProdutos != 0 || $totalServico != 0) {
                             echo "<h4 style='text-align: right'>Valor Total: R$ " . number_format($totalProdutos + $totalServico, 2, ',', '.') . "</h4>";
                             echo $result->valor_desconto != 0 ? "<h4 style='text-align: right'> Desconto: R$ " . number_format($result->valor_desconto != 0 ? $result->valor_desconto - ($totalProdutos + $totalServico) : 0.00, 2, ',', '.') . "</h4>" : "";
                             echo $result->valor_desconto != 0 ? "<h4 style='text-align: right'> Total com Desconto: R$ " . number_format($result->valor_desconto, 2, ',', '.') . "</h4>" : "";
                         }
-                        ?>
+                       */ ?>
                     </div>
                 </div>
             </div>

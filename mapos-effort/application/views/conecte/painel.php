@@ -7,9 +7,9 @@
         </a>
         </li>
 
-        <li class="card"> <a href="<?php echo base_url() ?>index.php/mine/compras"><i class='bx bx-cart-alt iconBx'></i>
+        <!-- <li class="card"> <a href="<?php // echo base_url() ?>index.php/mine/compras"><i class='bx bx-cart-alt iconBx'></i>
                 <div style="font-size: 1.2em" class="numbers">Compras</div>
-            </a></li>
+            </a></li> -->
         <li class="card"> <a href="<?php echo base_url() ?>index.php/mine/conta"><i class='bx bx-user-circle iconBx'></i>
                 <div style="font-size: 1.2em" class="numbers">Minha Conta</div>
             </a></li>

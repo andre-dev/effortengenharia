@@ -139,7 +139,7 @@ $totalProdutos = 0; ?>
                         } ?>
 
 
-                        <?php if ($produtos != null || $servicos != null) { ?>
+                        <?php /* if ($produtos != null || $servicos != null) { ?>
                             <br />
                             <table class="table table-condensed" id="tblProdutos">
                                 <thead>
@@ -200,7 +200,7 @@ $totalProdutos = 0; ?>
                                 </tbody>
                             </table>
                         <?php
-                        } ?>
+                        } */ ?>
                     </div>
                 </div>
             </div>

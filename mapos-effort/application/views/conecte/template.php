@@ -75,8 +75,8 @@
 }; ?>"><a class="tip-bottom" title="" href="<?php echo base_url() ?>index.php/mine/os"><i class='bx bx-spreadsheet iconX'></i> <span class="title">Ordens de Serviço</span></a></li>
                     <li class="<?php if (isset($menuVendas)) {
     echo 'active';
-}; ?>"><a class="tip-bottom" title="" href="<?php echo base_url() ?>index.php/mine/compras"><i class='bx bx-cart-alt iconX'></i> <span class="title">Compras</span></a></li>
-                    <li class="<?php if (isset($menuCobrancas)) {
+}; ?>"><!--<a class="tip-bottom" title="" href="<?php // echo base_url() ?>index.php/mine/compras"><i class='bx bx-cart-alt iconX'></i> <span class="title">Compras</span></a></li>
+                    <li class=" --><?php if (isset($menuCobrancas)) {
     echo 'active';
 }; ?>"><a class="tip-bottom" title="" href="<?php echo base_url() ?>index.php/mine/cobrancas"><i class='bx bx-credit-card-front iconX'></i> <span class="title">Cobranças</span></a></li>
                 </ul>

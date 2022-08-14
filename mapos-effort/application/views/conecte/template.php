@@ -121,7 +121,7 @@
     <div class="row-fluid">
         <div id="footer" class="span12">
             <?= date('Y') ?> &copy;
-            <?php echo $this->config->item('app_name'); ?> - Versão:
+            <?php //echo $this->config->item('app_name'); ?> Todos os direitos reservados a Effort Engenharia - Versão:
             <?php echo $this->config->item('app_version'); ?>
         </div>
     </div>

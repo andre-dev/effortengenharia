@@ -52,7 +52,7 @@
 
                                     <div class="span12" style="padding: 1%;">
                                         <div class="span12 alert alert-info">
-                                            <h5 class="text-center">Preencha os campos abaixo detalhando o que você precisa. Campos com asterisco são obrigatórios.</h5>
+                                            <h5 class="text-center">Preencha o campo abaixo detalhando o que você precisa com a máxima riqueza de detalhes.</h5>
                                         </div>
 
                                     </div>

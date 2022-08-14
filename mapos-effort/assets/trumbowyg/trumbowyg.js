@@ -85,7 +85,7 @@ Object.defineProperty(jQuery.trumbowyg, 'defaultOptions', {
         fixedFullWidth: false,
         autogrow: false,
         autogrowOnEnter: false,
-        imageWidthModalEdit: false,
+        imageWidthModalEdit: true,
 
         prefix: 'trumbowyg-',
 

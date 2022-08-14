@@ -203,7 +203,7 @@ $totalProdutos = 0; ?>
                                     } */ ?>
                                     <!-- <tr>
                                         <td colspan="3" style="text-align: right"><strong>Total:</strong></td>
-                                        <td><strong>R$ <?php echo number_format($totalServico, 2, ',', '.'); ?></strong></td>
+                                        <td><strong>R$ <?php // echo number_format($totalServico, 2, ',', '.'); ?></strong></td>
                                     </tr>
                                 </tbody>
                             </table> -->

@@ -34,7 +34,7 @@
                     <div class="control-group">
                         <label for="telefone" class="control-label">Telefone<span class="required">*</span></label>
                         <div class="controls">
-                            <input id="telefone" type="text" name="telefone" value="<?php echo $result->telefone; ?>" />
+                            <input id="telefone" type="text" name="telefone" disabled value="<?php echo $result->telefone; ?>" />
                         </div>
                     </div>
 

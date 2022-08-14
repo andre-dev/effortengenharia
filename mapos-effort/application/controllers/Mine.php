@@ -282,34 +282,34 @@ class Mine extends CI_Controller
             if ($senha != null) {
                 $senha = password_hash($senha, PASSWORD_DEFAULT);
                 $data = [
-                    'nomeCliente' => $this->input->post('nomeCliente'),
-                    'documento' => $this->input->post('documento'),
+                    // 'nomeCliente' => $this->input->post('nomeCliente'),
+                    // 'documento' => $this->input->post('documento'),
                     'telefone' => $this->input->post('telefone'),
                     'celular' => $this->input->post('celular'),
                     'email' => $this->input->post('email'),
                     'senha' => $senha,
-                    'rua' => $this->input->post('rua'),
-                    'numero' => $this->input->post('numero'),
-                    'complemento' => $this->input->post('complemento'),
-                    'bairro' => $this->input->post('bairro'),
-                    'cidade' => $this->input->post('cidade'),
-                    'estado' => $this->input->post('estado'),
-                    'cep' => $this->input->post('cep'),
+                    // 'rua' => $this->input->post('rua'),
+                    // 'numero' => $this->input->post('numero'),
+                    // 'complemento' => $this->input->post('complemento'),
+                    // 'bairro' => $this->input->post('bairro'),
+                    // 'cidade' => $this->input->post('cidade'),
+                    // 'estado' => $this->input->post('estado'),
+                    // 'cep' => $this->input->post('cep'),
                 ];
             } else {
                 $data = [
-                    'nomeCliente' => $this->input->post('nomeCliente'),
-                    'documento' => $this->input->post('documento'),
+                    // 'nomeCliente' => $this->input->post('nomeCliente'),
+                    // 'documento' => $this->input->post('documento'),
                     'telefone' => $this->input->post('telefone'),
                     'celular' => $this->input->post('celular'),
                     'email' => $this->input->post('email'),
-                    'rua' => $this->input->post('rua'),
-                    'numero' => $this->input->post('numero'),
-                    'complemento' => $this->input->post('complemento'),
-                    'bairro' => $this->input->post('bairro'),
-                    'cidade' => $this->input->post('cidade'),
-                    'estado' => $this->input->post('estado'),
-                    'cep' => $this->input->post('cep'),
+                    // 'rua' => $this->input->post('rua'),
+                    // 'numero' => $this->input->post('numero'),
+                    // 'complemento' => $this->input->post('complemento'),
+                    // 'bairro' => $this->input->post('bairro'),
+                    // 'cidade' => $this->input->post('cidade'),
+                    // 'estado' => $this->input->post('estado'),
+                    // 'cep' => $this->input->post('cep'),
                 ];
             }
 

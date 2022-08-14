@@ -79,7 +79,7 @@
         </div>
     </div>
 
-    <div class="widget-box">
+    <!-- <div class="widget-box">
         <div class="widget-title" style="margin: -20px 0 0">
           <span class="icon"><i class="fas fa-signal"></i></span>
             <h5>Últimas Compras</h5>
@@ -96,7 +96,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <?php
+                    <?php /*
                     if ($compras != null) {
                         foreach ($compras as $p) {
                             if ($p->faturado == 1) {
@@ -116,9 +116,9 @@
                         echo '<tr><td colspan="5">Nenhum venda encontrada.</td></tr>';
                     }
 
-                    ?>
+                   */ ?>
                 </tbody>
             </table>
         </div>
-    </div>
+    </div> -->
 </div>

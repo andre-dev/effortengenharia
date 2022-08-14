@@ -94,7 +94,8 @@
   min-height: 0 !important;
   padding: 0 !important;
   background: none;
-  opacity: 0 !important; }
+  opacity: 0 !important;
+  display: none; }
 
 .trumbowyg-box.trumbowyg-editor-hidden .trumbowyg-textarea {
   display: block; }

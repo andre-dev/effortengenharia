@@ -6,6 +6,16 @@
 <script type="text/javascript" src="<?php echo base_url() ?>assets/trumbowyg/trumbowyg.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets/trumbowyg/langs/pt_br.js"></script>
 
+<!-- Trumbowyg Plugins Css 11-08-22 -->
+<script rel="stylesheet" href="<?php echo base_url() ?>assets\trumbowyg\plugins\colors\ui\trumbowyg.colors.min.css"></script>
+
+<!-- Adicionando plugins ao trumbowyg 11-08-22 -->
+<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\fontfamily\trumbowyg.fontfamily.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\fontsize\trumbowyg.fontsize.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\colors\trumbowyg.colors.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\lineheight\trumbowyg.lineheight.min.js"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>assets\trumbowyg\plugins\pasteimage\trumbowyg.pasteimage.min.js"></script>
+
 <style>
     .ui-datepicker {
         z-index: 9999 !important;
@@ -51,12 +61,12 @@
                                     <div class="span12" style="padding: 1%; margin-left: 0">
 
                                         <div class="span12">
-                                            <label for="descricaoProduto">Descrição Produto/Serviço*</label>
+                                            <label for="descricaoProduto">Descreva sua necessidade*</label>
                                             <textarea class="span12 editor" name="descricaoProduto" id="descricaoProduto" cols="30" rows="5"></textarea>
                                         </div>
                                     </div>
 
-                                    <div class="span12" style="padding: 1%; margin-left: 0">
+                                    <!-- <div class="span12" style="padding: 1%; margin-left: 0">
 
                                         <div class="span12">
                                             <label for="defeito">Defeito</label>
@@ -70,7 +80,7 @@
                                             <textarea class="span12 editor" name="observacoes" id="observacoes" cols="30" rows="5"></textarea>
                                         </div>
 
-                                    </div>
+                                    </div> -->
                                     <div class="span12" style="padding: 1%; margin-left: 0">
                                         <div class="span6 offset3" style="display:flex;justify-content: center">
                                             <button class="button btn btn-success" id="btnContinuar">

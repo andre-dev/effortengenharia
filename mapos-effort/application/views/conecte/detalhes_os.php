@@ -28,9 +28,10 @@
                 <div class="span12" id="divProdutosServicos" style=" margin-left: 0">
                     <ul class="nav nav-tabs">
                         <!-- <li class="active" id="tabDetalhes"><a href="#tab1" data-toggle="tab">Detalhes da OS</a></li> -->
+                        <li class="active" id="tabDetalhes"><a href="#tab4" data-toggle="tab">Anexos</a></li>
                         <!-- <li id="tabProdutos"><a href="#tab2" data-toggle="tab">Produtos</a></li> -->
                         <!-- <li id="tabServicos"><a href="#tab3" data-toggle="tab">Serviços</a></li> -->
-                        <li id="tabAnexos"><a href="#tab1" data-toggle="tab">Anexos</a></li>
+                        <!-- <li id="tabAnexos"><a href="#tab4" data-toggle="tab">Anexos</a></li> -->
                     </ul>
                     <div class="tab-content">
                         <div class="tab-pane active" id="tab1">

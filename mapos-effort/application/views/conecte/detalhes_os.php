@@ -77,7 +77,7 @@
 
                                 <div class="span12" style="padding: 1%; margin-left: 0">
                                     <label for="descricaoProduto">Descrição Produto/Serviço</label>
-                                    <textarea class="span12 editor" name="descricaoProduto" id="descricaoProduto" cols="30" rows="5" disabled><?php echo $result->descricaoProduto; ?></textarea>
+                                    <textarea class="span12 editor" name="descricaoProduto" id="descricaoProduto" cols="300" rows="50" style="height: 1000px;" disabled><?php echo $result->descricaoProduto; ?></textarea>
                                 </div>
 
                                 <!-- <div class="span12" style="padding: 1%; margin-left: 0">

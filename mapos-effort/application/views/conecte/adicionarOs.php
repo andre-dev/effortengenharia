@@ -62,7 +62,7 @@
 
                                         <div class="span12">
                                             <label for="descricaoProduto">Descreva sua necessidade*</label>
-                                            <textarea class="span12 editor" name="descricaoProduto" id="descricaoProduto" cols="30" rows="5"></textarea>
+                                            <textarea class="span12 editor" name="descricaoProduto" id="descricaoProduto" cols="300" rows="50" style="height: 1000px;"></textarea>
                                         </div>
                                     </div>
 

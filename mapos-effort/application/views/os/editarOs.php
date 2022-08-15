@@ -118,9 +118,9 @@
                         echo 'selected';
                     } ?> value="Negociação">Negociação
                                                 </option>
-                                                <option <?php if ($result->status == 'Contrato') {
+                                                <option <?php if ($result->status == 'Em Andamento') {
                         echo 'selected';
-                    } ?> value="Contrato">Contrato <!-- Em Andamento -->
+                    } ?> value="Em Andamento">Em Andamento
                                                 </option>
                                                 <option <?php if ($result->status == 'Finalizado') {
                         echo 'selected';

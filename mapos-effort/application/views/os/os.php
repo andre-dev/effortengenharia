@@ -95,7 +95,7 @@
                                 case 'Aberto':
                                     $cor = '#00cd00';
                                     break;
-                                case 'Em Andamento':
+                                case 'Contrato': //Em Andamento
                                     $cor = '#436eee';
                                     break;
                                 case 'Orçamento':

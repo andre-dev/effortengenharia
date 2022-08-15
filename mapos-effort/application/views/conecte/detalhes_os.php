@@ -34,7 +34,7 @@
                         <!-- <li id="tabAnexos"><a href="#tab4" data-toggle="tab">Anexos</a></li> -->
                     </ul>
                     <div class="tab-content">
-                        <div class="tab-pane active" id="tab1">
+                        <div class="tab-pane" id="tab1">
 
                             <div class="span12" id="divCadastrarOs">
 
@@ -179,7 +179,7 @@
 
 
                         <!--Anexos-->
-                        <div class="tab-pane" id="tab4">
+                        <div class="tab-pane active" id="tab4">
                             <div class="span12" style="padding: 1%; margin-left: 0">
 
                                 <?php if ($this->session->userdata('cliente_anexa')) { ?>

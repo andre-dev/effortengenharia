@@ -45,11 +45,11 @@
 
     <nav id="sidebar">
         <div id="newlog">
-            <div class="icon2">
-                <img src="<?php echo base_url() ?>assets/img/logo-two.png">
-            </div>
+            <!-- <div class="icon2">
+                <img src="<?php // echo base_url() ?>assets/img/logo-two.png">
+            </div> -->
             <div class="title1">
-                <?= $configuration['app_theme'] == 'white' ? '<img src="' . base_url() . 'assets/img/logo-mapos.png">' : '<img src="' . base_url() . 'assets/img/logo-mapos-branco.png">'; ?>
+                <?= $configuration['app_theme'] == 'white' ? '<img src="' . base_url() . 'assets/img/effortLogo.png">' : '<img src="' . base_url() . 'assets/img/effortLogo.png">'; ?>
             </div>
         </div>
         <a href="#" class="visible-phone">

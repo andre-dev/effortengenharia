@@ -28,8 +28,8 @@
                 <div class="span12" id="divProdutosServicos" style=" margin-left: 0">
                     <ul class="nav nav-tabs">
                         <li class="active" id="tabDetalhes"><a href="#tab1" data-toggle="tab">Detalhes da OS</a></li>
-                        <li id="tabProdutos"><a href="#tab2" data-toggle="tab">Produtos</a></li>
-                        <li id="tabServicos"><a href="#tab3" data-toggle="tab">Serviços</a></li>
+                        <!-- <li id="tabProdutos"><a href="#tab2" data-toggle="tab">Produtos</a></li> -->
+                        <!-- <li id="tabServicos"><a href="#tab3" data-toggle="tab">Serviços</a></li> -->
                         <li id="tabAnexos"><a href="#tab4" data-toggle="tab">Anexos</a></li>
                     </ul>
                     <div class="tab-content">
@@ -80,7 +80,7 @@
                                     <textarea class="span12 editor" name="descricaoProduto" id="descricaoProduto" cols="30" rows="5" disabled><?php echo $result->descricaoProduto; ?></textarea>
                                 </div>
 
-                                <div class="span12" style="padding: 1%; margin-left: 0">
+                                <!-- <div class="span12" style="padding: 1%; margin-left: 0">
                                     <label for="defeito">Defeito</label>
                                     <textarea class="span12 editor" name="defeito" id="defeito" cols="30" rows="5" disabled><?php echo $result->defeito; ?></textarea>
                                 </div>
@@ -93,7 +93,7 @@
                                 <div class="span12" style="padding: 1%; margin-left: 0">
                                     <label for="laudoTecnico">Laudo Técnico</label>
                                     <textarea class="span12 editor" name="laudoTecnico" id="laudoTecnico" cols="30" rows="5" disabled><?php echo $result->laudoTecnico; ?></textarea>
-                                </div>
+                                </div> -->
 
                             </div>
 

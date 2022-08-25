@@ -2,12 +2,12 @@
 
 $config['protocol']         = 'smtp';
 $config['smtp_host']        = 'smtp.hostinger.com';
-$config['smtp_crypto']      = 'ssl'; // tls or ssl
+$config['smtp_crypto']      = 'tls'; // tls or ssl
 $config['smtp_port']        = 587;
 $config['smtp_user']        = 'comercial@effortengenharia.com';
 $config['smtp_pass']        = '!Ironmah2';
 $config['validate']         = true; // validar email
-$config['mailtype']         = 'html'; // text ou html
+$config['mailtype']         = 'text'; // text ou html
 $config['charset']          = 'utf-8';
 $config['newline']          = "\r\n";
 $config['bcc_batch_mode']   = false;

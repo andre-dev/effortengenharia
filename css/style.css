@@ -3636,11 +3636,7 @@ label {
 
   /* Ajuste botão whatsapp para mobile */
   .whats {
-    width: 300px;
-    height: 58px;
-    margin-left: 61px;
-    text-transform: uppercase;
-    border-radius: 0px;
+    display: none;
   }
 
   /* Retira parte do telefone do header para mobile */

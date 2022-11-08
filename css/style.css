@@ -1448,7 +1448,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 
 /*-- Animation */
 .banner-carousel [data-animation-in] {
-  opacity: 0;
+  opacity: 1 !important;
 }
 
 /* slick Box slider */
@@ -3594,4 +3594,69 @@ label {
 
 .alert-lei a:hover{
   color: #0052a5;
+}
+.blurry{
+	filter: blur(0px);
+	height: 100%;
+	width: 100%;
+}
+.overlay{
+  align-items: center;
+	background-color: rgba(0, 0, 0, .4);
+	box-sizing: border-box;
+	color: white;
+	display: flex;
+	font-size: 20px;
+	height: 100%;
+	padding: 20px 120px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+
+  /* Desativa o Slide para mobile */
+  .slick-dotted.slick-slider{
+    display: none;
+  }
+
+  /* Ajusta o campo de solicitar orçamento para mobile */
+  .call-to-action-box .action-style-box {
+    margin-top: 70px;
+    margin-bottom: -40px;
+  }
+
+  /* Ajuste botão menu para mobile */
+  .ajuste-menu {
+    justify-content: flex-start !important;
+  }
+
+  /* Ajuste botão whatsapp para mobile */
+  .whats {
+    width: 300px;
+    height: 58px;
+    margin-left: 61px;
+    text-transform: uppercase;
+    border-radius: 0px;
+  }
+
+  /* Retira parte do telefone do header para mobile */
+  .info-box-tel{
+    display: none;
+  }
+  .info-box-email{
+    display: none;
+  }
+  .info-box-certificados{
+    display: none;
+  }
+  .site-navigation{
+    margin-top: -5.563rem;
+  }
+  .column-title{
+    margin-top: -100px;
+  }
 }

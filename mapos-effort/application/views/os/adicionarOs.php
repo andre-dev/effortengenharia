@@ -94,7 +94,10 @@
                                         <label for="descricaoProduto">
                                             <h4>Descrição Produto/Serviço</h4>
                                         </label>
-                                        <textarea class="span12 editor" name="descricaoProduto" id="descricaoProduto" cols="300" rows="50"></textarea>
+                                        <textarea class="span12 editor" name="descricaoProduto" id="descricaoProduto" cols="300" rows="50">
+                                            <h1>Cabeçalho</h1>
+                                            <h1>Rodapé</h1>
+                                        </textarea>
                                     </div>
                                     <!-- <div class="span6" style="padding: 1%; margin-left: 0">
                                         <label for="defeito">

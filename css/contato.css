@@ -21,3 +21,15 @@
     flex-wrap: nowrap;
     justify-content: center;
 }
+
+@media only screen and (max-width: 991px) {
+
+    .column-title{
+        margin-top: 0px;
+    }
+
+    .cabecalhoForm{
+        height: 300px;
+        margin-bottom: -240px;
+    }
+}

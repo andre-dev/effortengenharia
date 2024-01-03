@@ -17,3 +17,14 @@
 .ajust-texto-valores{
     text-align: end;
 }
+
+.titleNossosNumeros{
+    margin-bottom: -80px;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .column-title{
+        margin-top: 0px;
+    }
+}

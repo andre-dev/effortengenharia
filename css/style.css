@@ -2538,6 +2538,14 @@ img.testimonial-thumb {
   color: #fff;
 }
 
+.footer-social p{
+  font-family: "Open Sans", sans-serif;
+}
+
+.footer-social p a:hover{
+  color: #fff;
+}
+
 /* Links */
 .footer-widget ul.list-arrow li {
   border-bottom: 1px solid rgba(255, 255, 255, 0.07);
@@ -3554,6 +3562,7 @@ label {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
+  justify-content: center;
 }
 .whats{
   height: 60px;
@@ -3616,7 +3625,27 @@ label {
 	z-index: 1;
 }
 
-@media only screen and (max-width: 600px) {
+.tituloTrabalheConosco{
+  margin-top: 63px !important;
+  margin-bottom: 8px !important;
+}
+
+.divLogoCentro{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    margin: 0;
+}
+.logoCentro{
+  /* width: 89%; */
+  width: 50rem;
+  margin-top: -125px;
+  margin-bottom: -150px;
+  max-width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 991px) {
 
   /* Desativa o Slide para mobile */
   .slick-dotted.slick-slider{
@@ -3655,4 +3684,8 @@ label {
   .column-title{
     margin-top: -100px;
   }
+  .logoCentro{
+    margin-top: -60px;
+    margin-bottom: -110px;
+}
 }

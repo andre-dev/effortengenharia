@@ -1,0 +1,26 @@
+.call-to-action-box .action-style-box{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #252525 !important;
+}
+
+.action-title{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.action-subTitle{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 14px;
+    color: white;
+}
+
+.action-subTitle:hover{
+    text-decoration: underline;
+    color: #ffb600;
+}
+
+.shuffle-btn-group {
+    text-align: center;
+}

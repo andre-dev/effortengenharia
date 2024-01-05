@@ -17,7 +17,7 @@
 }
 
 .card-img-top{
-    max-height: 30rem;
+    max-height: 30rem !important;
 }
 
 .card-text{

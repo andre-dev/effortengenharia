@@ -1,0 +1,20 @@
+.btnAlinhamento{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.btnGerarOrcamento{
+    width: 40rem;
+    height: 10rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.btnConsultarOrcamento{
+    width: 40rem;
+    height: 10rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+}

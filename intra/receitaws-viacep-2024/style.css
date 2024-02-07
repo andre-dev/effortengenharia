@@ -17,11 +17,12 @@ tr
 
 label
 {
-    width: 90px !important;
+    /* width: 90px !important; */
     margin: 5px;
     margin-left: 0px !important;
     text-transform: uppercase;
     margin-right: 25px;
+    font-weight: 900;
 }
 
 input

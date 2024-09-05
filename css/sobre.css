@@ -22,6 +22,17 @@
     margin-bottom: -80px;
 }
 
+.ts-team-wrapper:hover .ts-team-content{
+    top: 76% !important;
+    padding-top: 0px !important;
+    transition: 9999999999999999ms;
+    
+}
+
+.ts-team-content{
+    text-align: center !important;
+}
+
 @media only screen and (max-width: 991px) {
 
     .column-title{

@@ -22,6 +22,22 @@
     justify-content: center;
 }
 
+.whatsTwo{
+    height: 140px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: 30px;
+}
+
+.zeraMargin{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
 @media only screen and (max-width: 991px) {
 
     .column-title{

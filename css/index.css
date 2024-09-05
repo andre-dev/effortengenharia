@@ -37,6 +37,52 @@
     text-align: center;
 }
 
+.img-func-spda{
+    margin-bottom: 20px;
+}
+
+.img-franklin{
+    padding: 60px 85px 0px 60px;
+    /* border: ridge; */
+    border-image: radial-gradient(#0000 89%,#007300 0).01%/2px
+}
+
+.img-faraday{
+    padding: 103px 105px 0px 70px;
+    /* border: ridge; */
+    border-image: radial-gradient(#0000 89%,#007300 0).01%/2px
+}
+
+.bordaCard{
+    border-color: #ffb600 !important;
+}
+
+.bFontColor{
+    color: #252525;
+    font-weight: 700;
+}
+
+.bFontColor:hover{
+    color: #ffb600 !important;
+}
+
+.mSpda{
+    margin-top: 20px;
+}
+
+/* Estilo adicional para garantir que a modal não tenha altura fixa */
+.modal-dialog {
+    max-width: 50%;
+    margin: 1.75rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-content {
+    width: auto;
+    max-width: 100%;
+}
+
 @media only screen and (max-width: 600px) {
 
     .display-4{
